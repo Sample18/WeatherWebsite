@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather Website</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <main class="main_bg">
+        <div class="weather_wrapper">
+            <h3 class="name">the.weather</h3>
+            <div class="weather">
+                <p class="temp">26&#176;</p>
+                <div class="loc_date">
+                    <p class="sity">Moskow</p>
+                    <p class="date">10:37 - Thuesday, 22 oct '19</p>
+                </div>
+                <div class="weather_img">
+                    <img class="weather_image" src="images/rain.svg" alt="rain" width="50" height="50">
+                    <p class="weather_description"></p>
+                </div>
+            </div>
+        </div>
+        <aside class="aside">
+            <div class="search_wrapper">
+                <input class="search_inp" type="search" placeholder="Another location">
+                <button class="search_btn"><img src="images/loupe.svg" alt="search" width="28" height="28"></button>
+            </div>
+            <ul class="sity_location">
+                <!-- <li class="location">Moscow</li>
+                <li class="location">Paris</li>
+                <li class="location">Tokyo</li>
+                <li class="location">New York</li> -->
+            </ul>
+            <ul class="weather_details">
+                <li class="details_nav">Weather details</li>
+                <li class="detail">Cloudy <p class="detail_info cloudy"></p></li>
+                <li class="detail">Humidity <p class="detail_info humidity"></p></li>
+                <li class="detail">Wind <p class="detail_info wind"></p></li>
+                <li class="detail">Rain <p class="detail_info rain"></p></li>
+            </ul>
+        </aside>
+    </main>
+    <script type="text/javascript" src="scripts/script.js"></script>
+</body>
+</html>
